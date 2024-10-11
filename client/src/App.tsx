@@ -21,7 +21,7 @@ import { SubheadingUploadedNavigator } from './components/SubheadingUploadedNavi
                 {
                     (stage === stages.EDITING_OUTLINE && outline) && <div className='flex mt-4'>
                         <OutlineEdit outline={outline} setOutline={setOutline} />
-                        <div className='w-[70%] border border-neutral-600 rounded-sm flex items-center justify-center text-neutral-400'>
+                        <div className='w-[70%] border border-neutral-600 rounded-2xl flex items-center justify-center text-neutral-400'>
                             Save the Outline after changes to begin generating
                         </div>
                     </div>

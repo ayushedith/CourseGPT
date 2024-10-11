@@ -1,7 +1,7 @@
 import { Outline } from "./types"
 
 export const SubheadingStatus = ({ outline, setShowSubheading }: { outline: Outline, setShowSubheading: React.Dispatch<{ topic: number, subtopic: number }> }) => {
-    return (<div className='w-[30%] min-h-full max-h-[90vh] overflow-scroll px-8 py-4 border border-neutral-600 rounded-sm mr-3'>
+    return (<div className='w-[30%] min-h-full max-h-[90vh] overflow-scroll px-8 py-4 border border-neutral-600 rounded-xl  mr-3'>
         <div className='mb-3 text-2xl font-bold text-neutral-600'>Course Outline</div>
         {
             outline.items.map((item, itemIndex) => {
